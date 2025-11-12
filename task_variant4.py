@@ -22,7 +22,6 @@ def get_sequence_data() -> List[float]:
                     
     except FileNotFoundError:
         print("❌ Ошибка: Файл 'sequence.txt' не найден.")
-        print("Пожалуйста, создайте файл и поместите его в ту же папку, что и скрипт.")
         return []
     except Exception as e:
         print(f"❌ Произошла ошибка при чтении файла: {e}")
@@ -176,6 +175,6 @@ if __name__ == "__main__":
     analyze_and_plot_averages()
     
     # Раскомментируйте для анимации
-    # simple_animation()
+    #simple_animation()
     print("\n" + "-" * 30)
-    print("Чтобы увидеть анимацию, раскомментируйте вызов 'simple_animation()' и запустите код в консоли.")
+
