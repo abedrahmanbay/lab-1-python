@@ -174,7 +174,7 @@ if __name__ == "__main__":
     plot_sqrt_function()
     analyze_and_plot_averages()
     
-    # Раскомментируйте для анимации
     #simple_animation()
     print("\n" + "-" * 30)
+
 
