@@ -12,4 +12,4 @@
 
 ### Запуск программы:
 ```bash
-python main.py
+python task_variant.py
